@@ -113,9 +113,14 @@ header {
 }
 
 /* main section starts from here  */
-main{
+
+
+main {
     max-width: 1140px;
     margin: 0px auto;
+}
+main section{
+    margin-top: 130px;
 }
 
 .about {
@@ -124,14 +129,47 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
-   text-align: center;
+    text-align: center;
 }
-.info-title{
+
+.info-title {
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: bold;
+}
+
+.what-description {
+    padding: 20px 150px;
+}
+
+/* what i do section  */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
