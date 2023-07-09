@@ -62,9 +62,9 @@ nav a {
     cursor: pointer;
 }
 
-/* .btn-primary:hover{
-    padding: 17px 37px; 
-} */
+.btn-primary:hover{
+    color: #474747;
+}
 
 /* this is header section  */
 
@@ -190,7 +190,7 @@ main section {
 }
 
 .resume-item-title {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -200,10 +200,47 @@ main section {
 .resume-item-insitute {
     color: #757575;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 20px 5px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles  */
+.footer-area {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+.contact {
+    border: none;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.copyright{
+    text-align: center;
 }
